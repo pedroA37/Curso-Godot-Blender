@@ -2,6 +2,7 @@
 
 [ext_resource type="PackedScene" uid="uid://cvwove2d4kdyj" path="res://jugador.tscn" id="1_3kjql"]
 [ext_resource type="PackedScene" uid="uid://cgwp12e8572b6" path="res://campana.tscn" id="2_7t07f"]
+[ext_resource type="Script" path="res://hud.gd" id="3_hud"]
 
 [node name="Campanario" type="Node2D" unique_id=1569264952]
 
@@ -10,3 +11,14 @@ position = Vector2(230, 292)
 
 [node name="Campana" parent="." unique_id=1164080687 instance=ExtResource("2_7t07f")]
 position = Vector2(538, 293)
+
+[node name="HUD" type="Label" parent="."]
+offset_left = 16.0
+offset_top = 16.0
+offset_right = 216.0
+offset_bottom = 48.0
+theme_override_font_sizes/font_size = 24
+text = "Campanadas: 0"
+script = ExtResource("3_hud")
+
+[connection signal="sono" from="Campana" to="HUD" method="_on_campana_sono"]
