@@ -1,0 +1,12 @@
+[gd_scene format=3 uid="uid://dir45o3u74sf1"]
+
+[ext_resource type="PackedScene" uid="uid://cvwove2d4kdyj" path="res://jugador.tscn" id="1_3kjql"]
+[ext_resource type="PackedScene" uid="uid://cgwp12e8572b6" path="res://campana.tscn" id="2_7t07f"]
+
+[node name="Campanario" type="Node2D" unique_id=1569264952]
+
+[node name="Jugador" parent="." unique_id=491155461 instance=ExtResource("1_3kjql")]
+position = Vector2(230, 292)
+
+[node name="Campana" parent="." unique_id=1164080687 instance=ExtResource("2_7t07f")]
+position = Vector2(538, 293)

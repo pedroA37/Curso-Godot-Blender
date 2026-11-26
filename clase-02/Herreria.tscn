@@ -1,0 +1,24 @@
+[gd_scene format=3 uid="uid://bgg7ljktg2d78"]
+
+[ext_resource type="PackedScene" uid="uid://dtew1ycqfhxyo" path="res://Yunque.tscn" id="1_tcxrv"]
+
+[node name="Herreria" type="Node2D" unique_id=758197026]
+
+[node name="Yunque" parent="." unique_id=633435726 instance=ExtResource("1_tcxrv")]
+position = Vector2(176, 324)
+
+[node name="Yunque2" parent="." unique_id=1108352243 instance=ExtResource("1_tcxrv")]
+position = Vector2(352, 324)
+velocidad = 3
+
+[node name="Yunque3" parent="." unique_id=1663417645 instance=ExtResource("1_tcxrv")]
+position = Vector2(528, 324)
+velocidad = 4
+
+[node name="Yunque4" parent="." unique_id=1505985051 instance=ExtResource("1_tcxrv")]
+position = Vector2(704, 324)
+velocidad = 5
+
+[node name="Yunque5" parent="." unique_id=1557851607 instance=ExtResource("1_tcxrv")]
+position = Vector2(880, 324)
+velocidad = 6

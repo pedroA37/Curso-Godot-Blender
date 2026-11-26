@@ -1,0 +1,10 @@
+[gd_scene format=3 uid="uid://dtew1ycqfhxyo"]
+
+[ext_resource type="Texture2D" uid="uid://bxc8c6hq5lakt" path="res://icon.svg" id="1_v1twu"]
+[ext_resource type="Script" uid="uid://b75eucjr6vqij" path="res://yunque.gd" id="2_waxcu"]
+
+[node name="Yunque" type="Node2D" unique_id=633435726]
+script = ExtResource("2_waxcu")
+
+[node name="Icon" type="Sprite2D" parent="." unique_id=115915837]
+texture = ExtResource("1_v1twu")
