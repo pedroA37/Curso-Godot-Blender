@@ -1,0 +1,7 @@
+; Proyecto del ejercicio m1-5 de NONA Studio Academy.
+config_version=5
+
+[application]
+
+config/name="m1-5 Invulnerabilidad"
+config/features=PackedStringArray("4.7")
