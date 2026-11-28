@@ -1,0 +1,41 @@
+{
+  "aprobadas": 1,
+  "aprobado": false,
+  "clase": "m1-5",
+  "commit": "4036971d6ad12844fd93ccc001837551fb9aff5e",
+  "fecha": "2026-11-28T01:56:42Z",
+  "godot": "4.7.2-stable (official)",
+  "pruebas": [
+    {
+      "mensaje": "Después del primer contacto, vidas debería valer 2 y vale 3.",
+      "nombre": "Un enemigo resta una vida",
+      "ok": false
+    },
+    {
+      "mensaje": "Con el primer golpe, la señal tendría que llevar 2 y llevó nada. ¿Se emite antes o después de restar?",
+      "nombre": "La señal golpeado avisa el valor nuevo",
+      "ok": false
+    },
+    {
+      "mensaje": "Un segundo enemigo llegó a los 0,15 s del primero y vidas quedó en 3. Durante la invulnerabilidad los golpes nuevos no cuentan.",
+      "nombre": "Durante la ventana no hay más daño",
+      "ok": false
+    },
+    {
+      "mensaje": "Un enemigo quedó encima 0,75 s y vidas vale 3; debería valer 1. Al terminar la ventana nadie vuelve a avisar: hay que preguntar qué toca al jugador.",
+      "nombre": "El contacto sostenido vuelve a doler",
+      "ok": false
+    },
+    {
+      "mensaje": "No hubo un segundo golpe con el enemigo encima, así que no se pudo medir la ventana. Resuelve primero la prueba del contacto sostenido.",
+      "nombre": "La ventana dura medio segundo",
+      "ok": false
+    },
+    {
+      "mensaje": "",
+      "nombre": "La detección sigue encendida",
+      "ok": true
+    }
+  ],
+  "total": 6
+}
