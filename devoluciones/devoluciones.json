@@ -1,12 +1,45 @@
 {
   "curso": "videojuegos-desde-cero",
   "clases": {
-    "m0-2": {"estado": "convalidada", "fecha": "2026-11-27", "comentario": "Godot, Blender y Git ya instalados y en uso desde la clase 1 del formato anterior (24/11)."},
-    "m1-1": {"estado": "convalidada", "fecha": "2026-11-27", "comentario": "Clase 1 del formato anterior (24/11): editor, escenas y nodos. Aprobada 3 de 3."},
-    "m1-2": {"estado": "convalidada", "fecha": "2026-11-27", "comentario": "Clase 1 del formato anterior (24/11): repositorio, .gitignore y commits. Pendiente de entonces: mensajes de commit distintos entre sí."},
-    "m1-3": {"estado": "convalidada", "fecha": "2026-11-27", "comentario": "Clase 2 del formato anterior (25/11): scripts, entrada con acciones y delta."},
-    "m1-4": {"estado": "convalidada", "fecha": "2026-11-27", "comentario": "Clase 2 del formato anterior (25/11): instancias con @export. Quedaron pendientes la señal propia y el HUD por señal; se retoman en m1-5."},
-    "m4-1": {"estado": "convalidada", "fecha": "2026-11-27", "comentario": "Clase 3 del formato anterior (26/11): interfaz, navegación y transformaciones."},
-    "m4-2": {"estado": "convalidada", "fecha": "2026-11-27", "comentario": "Clase 3 del formato anterior (26/11): yunque, tronco y barril modelados por polígonos. Aprobada 3 de 3."}
+    "m0-2": {
+      "estado": "convalidada",
+      "fecha": "2026-11-27",
+      "comentario": "Godot, Blender y Git ya instalados y en uso desde la clase 1 del formato anterior (24/11)."
+    },
+    "m1-1": {
+      "estado": "convalidada",
+      "fecha": "2026-11-27",
+      "comentario": "Clase 1 del formato anterior (24/11): editor, escenas y nodos. Aprobada 3 de 3.",
+      "carpeta": "ejercicios/m1-1"
+    },
+    "m1-2": {
+      "estado": "convalidada",
+      "fecha": "2026-11-27",
+      "comentario": "Clase 1 del formato anterior (24/11): repositorio, .gitignore y commits. Pendiente de entonces: mensajes de commit distintos entre sí.",
+      "carpeta": "ejercicios/m1-1"
+    },
+    "m1-3": {
+      "estado": "convalidada",
+      "fecha": "2026-11-27",
+      "comentario": "Clase 2 del formato anterior (25/11): scripts, entrada con acciones y delta.",
+      "carpeta": "ejercicios/m1-3"
+    },
+    "m1-4": {
+      "estado": "convalidada",
+      "fecha": "2026-11-27",
+      "comentario": "Clase 2 del formato anterior (25/11): instancias con @export. Quedaron pendientes la señal propia y el HUD por señal; se retoman en m1-5.",
+      "carpeta": "ejercicios/m1-3"
+    },
+    "m4-1": {
+      "estado": "convalidada",
+      "fecha": "2026-11-27",
+      "comentario": "Clase 3 del formato anterior (26/11): interfaz, navegación y transformaciones."
+    },
+    "m4-2": {
+      "estado": "convalidada",
+      "fecha": "2026-11-27",
+      "comentario": "Clase 3 del formato anterior (26/11): yunque, tronco y barril modelados por polígonos. Aprobada 3 de 3.",
+      "carpeta": "ejercicios/m4-2"
+    }
   }
 }
